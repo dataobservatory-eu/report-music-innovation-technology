@@ -1,0 +1,197 @@
+---
+title: Observing and Promoting Innovation in the Music Ecosystem and Future Trends in Music with Open Data and Open Collaboration
+subtitle: "DOI: 10.5281/zenodo.6436244"
+author:
+- Daniel Antal, CFA, Reprex & University of Amsterdam
+- Andrés García Molina, PhD, Reprex
+date: "`r Sys.Date()`"
+output:
+  word_document: default
+  html_document: default
+  pdf_document: default
+bibliography:
+- datascience.bib
+- mme.bib
+- legalccsi.bib
+- antal.bib
+- competition.bib
+- caselaw.bib
+- dcms.bib
+- digitalmusicobservatory.bib
+- packages.bib
+- musicindustry.bib
+- musicology.bib
+- statisticalmethodology.bib
+- datainteroperability.bib
+- eulaw.bib
+- openscience.bib
+- opa.bib
+- opendata.bib
+- rpackages.bib
+- valuation.bib
+- valuegap.bib
+---
+
+```{r setupdmoinnovationpillar, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE, out.width = '95%', fig.align = 'center')
+library(knitr)
+library(here)
+here::here()
+```
+
+
+## Abstract
+
+The _Feasibility study for the establishment of a European Music Observatory_ (in short: EMO Feasibility Study)^[Feasibility study for the establishment of a European Music Observatory [@emo_feasibility_study_2020].] has identified 7 data gaps, and a general data source. The Digital Music Observatory, as a cutting-edge observatory prototype, covers all 7 data gaps.
+
+I. [Task list](#wp-innovation)
+&nbsp;
+
+1. [Methodology Issues](#methodology-music-innovation)
+
+
+II. [Filling the Data Gaps](#obj-innovation-data-gaps)
+&nbsp;
+1. [Blockchain and music](#obj-blockchain); 2. [Artificial intelligence, machine learning and music](#obj-trustworhty-AI); 3. [Future of Streaming](#obj-future streaming); 4. [Mapping the flow of digital revenues in the music sector and the relevant business models in Europe](#obj-mapping-digital-revenues); 6. [Music start-ups in the EU](#obj-innovation-music-start-up); 7. [The impact of artists' ‘do it yourself’ culture on the economy of the sector](#obj-innovation-DIY).
+
+According to the _EMO Feasibility Study_, "this pillar is less data-driven in that it will rely mostly on research conducted on topics relating to changes in the market place, new business models, disruptive technologies, etc. A European Music Observatory will have the latitude to pick certain topics based on priorities and input from sectoral stakeholders." The [Digital Music Observatory](https://music.dataobservatory.eu/) covers all seven areas. 
+
+II. [The innovation of Music Pillar of the Digital Music Observatory](#dmo-innovation-pillar)
+1. [From CEEMID to the Digital Music Observatory](#obj-diversity-ceemid-dmo) _This can be used in excellence / Objectives_ and _WP Implementation_.
+2. [Music & Innovation Policy Relevance](#obj-innovation-policy) _This can be used as state-of the art in Objectives._
+3. [Open Collaboration, Open Policy Analysis, and Open Data](#obj-diversity-OPA)
+&nbsp;  _This overlaps with our general WP Implementation_.
+
+III. [References](#obj-diversity-references)
+
+The goals of the *Innovation Pillar* greatly overlap with the three core pillars of *Economy of Music*, *Diversity and Circulation* and *Music, Society and Citizenship*. 
+some aspects of this pillar.
+
+Please find the authoritative copy of this document (or later versions) on [Zenodo](https://zenodo.org/record/6436244#.YlMXBchBzIU). Subjects: [Music and technology](https://id.loc.gov/authorities/subjects/sh94007386.html); [Machine learning](https://id.loc.gov/authorities/subjects/sh85079324.html); [Blockchains (Databases)](https://id.loc.gov/authorities/subjects/sh2016002790.html).
+
+## Proposed Work in the Innovation & Future Trends Area {#wp-innovation}
+
+This is a part of our Proposal to the[Towards a competitive, fair and sustainable European music ecosystem](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2022-heritage-01-05)^[Research and innovation on cultural heritage and CCIs - 2022 (HORIZON-CL2-2022-HERITAGE-01)] grant call.
+
+Our WP Innovation Work does not follow the structure of the previous three work packages, because "this pillar is less data-driven in that it will rely mostly on research conducted on topics relating to changes in the market place, new business models, disruptive technologies, etc. A European Music Observatory will have the latitude to pick certain topics based on priorities and input from sectoral stakeholders." Instead, we will focus on innovative uses of data and metadata in music. 
+
+## Task List
+
+Our [T4.1 Towards an improved and harmonised data infrastructure in music](#obj-innovation-data-interoperability) focuses on the cost/benefit analysis of improving copyright managmenet data and metadata quality. This is an important topic, because the majority of recorded music is currently placed for the consumers by machine learning algorithms---not on streaming platforms, because even radio editors and festival promoters increasingly rely on machine learning.  These algorithms can learn better the potential uses of a recording/work if it is better documentd. However, documentation has economies of scale, and for small countries, small repertoires better documentation may exceed the expected future royalty revenues.
+
+[T4.2 Decentralized, bottom-up copyright data relevant activities – an analysis of NFT and blockchain-based initiatives](#obj-innovation-blockchain)  explains what role a newly emerging, decentralize metadata management system can play in the better "learnability" of the European repertoire. 
+
+[T4.3 Artificial intelligence, machine learning and music](#obj-trustworhty-AI) will show that expectation of a trustworhty and ethical use of AI, which leads to recommendation outcomes that are in line with the European content regulation, cultural diversity policy and other goals critically depends on training data and metadata quality. 
+
+## T4.1 Towards an improved and harmonised data infrastructure in music {#obj-innovation-data-interoperability}
+
+Task description: Towards an improved and harmonised data infrastructure in music (Leader: UVA <M1-M36> This task explores individual dynamics and problems in music data improvement and harmonisation, and potential stumbling blocks which may thwart large-scale data improvement projects, based on an analysis of experiences with existing data infrastructures and problem scenarios. 
+ST1 - Assessment of past initiatives <M1-M8> tackles the issue and reasons for their abandonment will be analysed by means of desk research. 
+ST2 - Participatory research assessment <M8-M18> with semi-structured stakeholder interviews, delineates the status quo, new opportunities arising from new technologies and distribution platforms, and obstacles to data improvement. 
+ST3 - Evaluation of legal framework <M18-M33> assesses the current regulatory framework to distil potential incentives for data improvement, by means of legal-doctrinal desk research. ST4.2.4 - Economic assessment <M18-M33> performs an economic analysis to calculate costs/benefits of music data improvement projects and determine the investment necessary to improve the music data infrastructure. 
+ST5 - Policy Recommendations <M33-M36> builds on previous subtasks to develop a policy strategy for the improvement and harmonisation of music data. mapping the potential of existing legislation and as necessary making proposals for new regulatory approaches.
+
+
+
+### T4.2 Decentralized, bottom-up copyright data relevant activities – an analysis of NFT and blockchain-based initiatives {#obj-innovation-blockchain}
+
+Distributed ledgers, which can be designed to serve as a standardized, decentralized, automated technological infrastructure to store, share and use copyright metadata, and which allow applications that ease the licensing, and monetization of creative works was seen by many as the next logical step, and the ultimate solution to many of the problems that plague creative industries. A global, low-cost, unified system, which relies on the open-ended cooperation of all kinds of stakeholders to maintain accurate copyright related metadata, and the open, self-enforcing application layer on top of that, which can ultimately link the circulation of copyrights, the digital circulation of works, and the flow of remuneration can indeed be seen as a democratic, bottom-up DRM system, owned by nobody, operated by everybody, for the equal benefit of all. Yet, those who started to work on the practical implementations of this vision soon had to realize, that the hurdles to this celestial jukebox are not so much technological, but institutional (Bodo et al 2019), and thus, by 2022 most of the initial projects have run out of steam, and were quietly disbanded.
+
+This initial failure, however, does not mean that distributed ledgers, and smart contracts were forgotten in the copyright-related creative domains. On the contrary: on the basis of Non-Fungible Tokens - unique digital representations of creative works - a whole ecosystem emerged: a large group of creators, who learned to “mint” their creations; marketplaces which offer uncurated or curated interfaces between supply and demand; buyers, collectors who are willing to pay sometimes substantial amounts of money for such digital tokens; and a whole new set of technologically formulated and enforced copynorms, which address issues, such as droit-de suit in a domain which still operates outside the purview of international copyright law.
+
+This decentralized technological domain forces us to ask relevant research questions as well as opens up vast, open field for innovation. In particular, the research questions are:
+
+-	What are the institutional, economic, political hurdles, which prevent the creation of a large, open, collaboratively built and maintained metadata repository, and to what extent there is a technical solution to those?
+-	Who are the most active stakeholders in the bottom-up, emerging NFT space, and what are their motivations for participation?
+-	What kind of results these emergent activities produce in terms of metadata quality, availability?
+-	What kind of shortcomings can be identified in this space, such as the lack of metadata standards; error handling, and conflict resolution mechanisms to deal with conflicts, etc.
+
+The University of Amsterdam has already done extensive work on the intersection of copyright, NFTs, blockchains and smart contracts. In the coming years we’ll develop new methods to use data science methods to analyze legal issues in this space. These provide a strong foundation to get in-depth qualitative as well as quantitative answers to the aforementioned questions.
+
+The identification of the main causes of friction between distributed ledgers technologies, copyright law, and social practices around the creation, circulation, use and remuneration of creative works is also the first, necessary step in working on innovative solutions, which address the biggest issues. In particular, we envision the following innovations that flow from such research:
+
+-	The development of a copyright specific ERC token standard
+-	An automated system which checks, and amends metadata based on existing, publicly available datasets
+-	A public dashboard which creates transparency with regards to the existence and circulation of works with DLT encoded metadata
+-	The development of copyright specific smart contract standards, which take into account the requirements of this domain.
+
+
+## T4.3 Artificial intelligence, machine learning and music {#obj-trustworhty-AI} 
+
+
+## Methodology Issues {#methodology-music-innovation}
+
+
+> Balazs, if you can add here anything.
+
+## Music & Innovation Policy Relevance {#obj-innovation-policy}
+
+
+> Just a bit of a state of the art narrative
+
+# Filling the Data Gaps {#obj-innovation-data-gaps}
+
+
+
+
+
+### Future of Streaming {#obj-future streaming} 
+
+
+The [Towards a competitive, fair and sustainable European music ecosystem](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl2-2022-heritage-01-05)^[Research and innovation on cultural heritage and CCIs - 2022 (HORIZON-CL2-2022-HERITAGE-01)] grant call stresses out that "proposals should further research on the economy of the streaming models: while streaming (for free or via a subscription) services are becoming a main access point for music and are expected to grow even further in the years to come, their economic impact on the whole sector in the long term, in particular on the creators, is still uncertain."
+
+### Mapping the flow of digital revenues in the music sector and the relevant business models in Europe {#obj-mapping-digital-revenues}
+
+This relates to WP Economics & Music 
+
+### Music start-ups in the EU {#obj-innovation-music-start-up}
+
+This relates to WP Economics & Music 
+
+
+### The impact of artists' ‘do it yourself’ culture on the economy of the sector {#obj-innovation-DIY}
+
+We will not contribute to this.
+
+## The innovation of Music Pillar of the Digital Music Observatory {#dmo-innovation-pillar}
+According to the _EMO Feasibility Study_, "there is already an existing pool of data that would allow the European Music Observatory to start compiling information about the European music sector. Various potential sources and providers of data are … [_available, such as our Digital Music Observatory_]. Many of these providers have already indicated support for a future European Music Observatory, and are willing to collaborate and provide data. However, some data is not collected or is not aggregated in a way that it can be
+compared across Europe^[Feasibility study for the establishment of a European Music Observatory  [@emo_feasibility_study_2020, pp31-34].].
+
+## From CEEMID to the Digital Music Observatory {#obj-diversity-ceemid-dmo}
+The [Digital Music Observatory](https://music.dataobservatory.eu/) (formerly CEEMID) has been identified among these data sources^[Our observatory is mentioned to be ablet to participate with "data collection and integration system based on open data, opensources and online surveys" in all pillars of the future European Music Observatory, including Diversity & Circulation [@emo_feasibility_study_2020, p40.]]. CEEMID was originally an acronym for a data integration project that aimed to _Create a Regional Music Database to Support Professional National Reporting, Economic Valuation and a Regional Music Study_^[The original aim of CEEMID was _Measuring and Reporting Regional Economic Value Added, National Income and Employment by the Music Industry in a Creative Industries Perspective_ Three national collective management societies and their consultant signed Memorandum of Understanding about this in 2014 [@artisjus_measuring_2014].]. According to the European Commission’s feasibility study, “CEEMID can transfer thousands of indicators that are reproducible and verifiable, open-source software that creates them to a European Music Observatory. In particular, CEEMID provides a useful and interesting approach to harnessing the possibilities of open data in Europe in relation to the music sector, which should be further explored by the European Music Observatory in its start-up phase."^[Feasibility study for the establishment of a European Music Observatory  [@emo_feasibility_study_2020, pp147-148].] 
+
+The Digital Music Observatory is built on the gradual, and open extension of the original CEEMID consortium, and builds on practical research and innovation that contributed to many music policy goals in an increasing number of countries since 2014. The original CEEMID consortium delivered the first Hungarian music industry studies (followed by several subsequent ones), the Slovak national music industry study, _Private Copying in Croatia_, and eventually the regional Central European Music Industry Report.^[[A ProArt zeneipari jelentése](https://music.dataobservatory.eu/publication/hungary_music_industry_2014/) [@antal_proart_2015] and _The Growth of the Hungarian Popular Music Repertoire: Who Creates It And How Does It Find An Audience_ [@antal_growth_2017]; [Správa o slovenskom hudobnom priemysle](https://music.dataobservatory.eu/publication/slovak_music_industry_2019/) [@antal_slovenskom_hudobnom_2019_en], [Private copying in Croatia](https://music.dataobservatory.eu/publication/private_copying_croatia_2019/) [@antal_pcr_croatia_2019], [Central Euroepan Music Industry Report](https://ceereport2020.ceemid.eu/) [@antal_ceereport_2020].] All of these industry studies addressed the problem of shrinking competitiveness in of the small language repertoire in the streaming era. 
+
+The Feasibility Study is built on the consensus of many European music organizations around a shared understanding “that a European Music Observatory should act as a centralised music data and an intelligence hub at European level.” However, as a pilot project and policy brief carried out in Finland^[See the Policy Brief _A Symphony, not a Solo_ [@osimo_symphony_2019].], or the CEEMID project in Central and Eastern Europe has shown, has its limits. We believe that the  existing data availability is better than that described in the _Feasibility study_, and since the creation of this report, it has only got better. 
+
+Since 2014, the [Digital Music Observatory](https://music.dataobservatory.eu/) (former CEEMID) successfully piloted data collection, standardization and harmonization procedures that can fill all the data gaps identified in the music diversity and circulation pillar of the future European Music Observatory. CEEMID was transformed into a "Demo Music Observatory" on 15 September 2020^[Antal-Szentirmay: Launching Our Demo Music Obervatory ([blogpost](Launching Our Demo Music Observatory))] and eventually named _Digital Music Observatory_ in 2021.  Its policy relevance was also recognized in the United Kingdom after Brexit^[Written evidence submitted by The state51 Music Group. Economics of music streaming review. Response to call for evidence [@dcms_state51_2020].].
+
+The [Digital Music Observatory](https://music.dataobservatory.eu/)  follows the _Open Policy Analysis Guidelines_^[The [Open Policy Analysis Guidelines](http://www.bitss.org/wp-content/uploads/2019/03/OPA-Guidelines.pdf) which grew out from several initiatives in research transparency, such as the Berkeley Initiative for Transparency in the Social Sciences, the Data Access and Research Transparency (DA-RT) group, the Center for Open Science and their TOP Guideline, the Meta-Research Innovation Center at Stanford University [@opa_guidelines; @OPA_guardia_et_al_2020].] The OPA Guidelines give practical guidance on how to improve the transparency, replicability, and as a result, the reusability of the policy-making work with a scientific underpinning.
+
+The _EMO Feasibility Study_ acknowledges the importance of open data. The "EMO should also take advantage of open data where possible. Open data is data that can be freely used, re-used and redistributed by anyone. […] Using some form of open source software where relevant would allow an EMO to access a continuous peer-review of data ingestion, processing, corrections and indicator creation by statisticians, data scientists and academics."^[In the EU, open data is governed by Directive (EU) 2019/1024 on open data and the re-use of public sector information [@eu_directive_2019_790], which replaced the Public Sector Information Directive, also known as the ‘PSI Directive’ which dated from 2003 and was subsequently amended in 2013. Feasibility study for the establishment of a European Music Observatory  [@emo_feasibility_study_2020, p38].]  
+
+As stated in this final report, the 2019 Open Data Directive further extended the availability of re-usable public sector information (PSI) with *open science data*. . In both PSI, as open government data, and in open science data, there is a huge potential to fill in the data gaps without new data collection—the fact that data can be reused instead of being recollected is the main aim of the directive. However, open data does not mean _public data_. Open data means that taxpayer-funded research data can be repurposed, reprocessed, and reused---the Digital Music Observatory is an expert on such data science techniques.
+
+The _Digital Music Observatory is not an alternative to the future European Music Observatory_, just its open source, open data driven voluntary, based on open collaboration with music industry stakeholders, music policy makers and users, academic researchers, individual and citizen scientists, and individual artists. Because we create fully automated research tools that are creating open datasets, and open source software, even our research infrastructure can be fully transferred to a future European Music Observatory^[In other words, our aim, fully in line with the intentions of the Commission expert who were encouraging us to make this proposal, and with the Feasibility Study, is to create open source scientific/statistical software and pilot open data that can be utilized in 4/4 identified data gaps related to music diverstiy and circulation in the European Music Observatory.].
+
+<!-- The Feasibility Study on page 75-76 puts the costs of data experts and procurement for 6-12 projects per year at 1-2 million euros annually [@emo_feasibility_study_2020, pp75-76]. We would like to utilize about 0.6 million euros worth of research and innovation funding to create a fully reproducible, automated prototype of the diversity pillar that can be transferred to a future observatory without further cost. -->
+
+We are not planning to make a competing data observatory.  We want to provide a minimum viable model of creating at least a hundred useful indicators---selected from hundreds of indicator-candidates with user feedback--- that goes through the unit-testing of data science and computer science, the peer-review of open-source scientific algorithm/software development, the methodological peer-review of science, and eventually user verification from music industry users. This will make sure that the indicators can be reproduced, refreshed, and placed in a future European Music Observatory with at least as good data quality as one would expect from a governmental statistical source or Eurostat.
+
+The aim of the Digital Music Observatory is to maximize transparency by introducing to the policy context of Music Moves Europe, and the wider European music ecosystem the Open Policy Analysis framework. (See [Open Collaboration, Open Policy Analysis, and Open Data](#obj-diversity-OPA).)
+
+## Open Collaboration, Open Policy Analysis, and Open Data {#obj-diversity-OPA}
+We aim to maximize transparency by introducing to the policy context of Music Moves Europe, and the wider European music ecosystem the Open Policy Analysis framework. [@opa_guidelines; @framework_for_opa_2020]. 
+
+Our policy tools will make possible the first, large scale European application of the Open Policy Analysis, which grew out from several initiatives in research transparency, such as the Berkeley Initiative for Transparency in the Social Sciences, the Data Access and Research Transparency (DA-RT) group, the Center for Open Science and their TOP Guideline, the Meta-Research Innovation Center at Stanford University. Globally, the World Bank promotes this framework [@framework_for_opa_2020; @acre_guide] and they are fully in line with the Open Science objectives of the European Union 
+[@reproducibility_scientific_results_eu_2020].
+
+```{r opafig-wp, fig.align='center', fig.cap='Our ambition to increase transparency with introducing the Open Policy Analysis into the European music policies and collaborative data use in the European industry.'}
+knitr::include_graphics(file.path("plots", "OPA_main_figure_with_source.png"))
+```
+
+We believe that existing data availability is better than that described in the _Feasibility study_. As stated in this final report, the 2019 Open Data Directive further extended the availability of re-usable public sector information (PSI) with open science data. In both PSI, as open government data, and in open science data, there is a huge potential to fill in the data gaps without new data collection---the fact that data can be reused instead of being recollected is the main aim of the directive. These open data sources are legally open but are not accessible without further investment, and our Consortium wants to make this investment, and produce about 50% of all the data needs of the future European Music Observatory.
+
+It also mentioned the work CEEMID, a bottom-up initiative originally started by three collective management societies, and eventually joined by more than 60 stakeholders in 12 European countries to fill in some of these gaps with a) voluntary data integration among partners b) open data re-processing c) co-financed data collection.  Our proposal wants to put the former CEEMID, currently named Digital Music Observatory, a more solid scientific and methodological foundation, to make it more user-friendly, and to exploit state-of-art statistical, data science and computer science methods to provide more comprehensive, timely, and accurate services for the European music sector.
+
+## References
